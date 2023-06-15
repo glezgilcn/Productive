@@ -1,0 +1,70 @@
+:root {
+    --black: #23232b;
+    --lightGrey: #cdcdd9;
+    --darkGrey: #afafb8;
+}
+
+body{
+    background-color: var(--black);
+}
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--lightGrey);
+}
+
+#weekDays ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    list-style-type: none;
+    color: var(--darkGrey);
+  }
+
+#weekDays ul li{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 80px;
+}
+
+#activeDay{
+    border-radius: 50%;
+    background-color: aliceblue;
+    opacity: 0.2;
+    color: green;
+}
+
+#image {
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#momentsDay ul{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+  }
+
+#addHabit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#buttonAdd{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
