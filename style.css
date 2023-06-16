@@ -35,7 +35,7 @@ body{
 }
 
 #activeDay{
-    border-radius: 50%;
+    border-radius: 24px;
     background-color: aliceblue;
     opacity: 0.2;
     color: green;
@@ -50,12 +50,55 @@ body{
     align-items: center;
   }
 
-#momentsDay ul{
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    list-style-type: none;
+#momentsDayList{
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+  color: var(--darkGrey);
   }
+
+  #momentsDayList li{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 80px;
+}
+
+#activeMoment{
+    border-radius: 24px;
+    background-color: aliceblue;
+    opacity: 0.2;
+    color: green;
+}
+
+.habitsTime{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: var(--darkGrey);
+}
+
+.habitsTime ul{
+  list-style-type: none;
+  margin: 0;
+  width: 95%;
+  padding: 0;
+}
+
+.habitsTime ul li{
+  border-radius: 10px;
+  background-color: aliceblue;
+  margin: 12px;
+  padding: 12px;
+  text-align: center;
+}
 
 #addHabit{
     display: flex;
