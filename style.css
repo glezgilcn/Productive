@@ -52,7 +52,7 @@ body{
     height: 80px;
 }
 
-#activeDay{
+.activeDay{
     border-radius: 24px;
     background-color: var(--color-primary-400);
     color: var(--color-surface-200);
@@ -90,7 +90,7 @@ body{
     height: 80px;
 }
 
-#activeMoment{
+.activeMoment{
     border-radius: 24px;
     background-color: var(--color-primary-400);
     color: var(--color-surface-200);
